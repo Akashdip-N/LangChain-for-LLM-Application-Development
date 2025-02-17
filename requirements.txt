@@ -3,12 +3,13 @@
 # 1. Model Prompt Parser.ipynb code
 openai==0.27.7
 simplejson==3.18.0
-langchain==0.1.0
-langchain-community==0.1.0
-langchain-core==0.1.0
+langchain==0.0.179
 
 # 2. Memory.ipynb code
 tiktoken==0.9.0
 
 # 3. Chains.ipynb code
 pandas==2.2.3
+
+# 4. QnA.ipynb code
+docarray==0.40.0
