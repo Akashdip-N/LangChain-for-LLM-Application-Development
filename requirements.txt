@@ -13,3 +13,6 @@ pandas==2.2.3
 
 # 4. QnA.ipynb code
 docarray==0.40.0
+
+# 6. Agents.ipynb code
+wikipedia==1.4.0
