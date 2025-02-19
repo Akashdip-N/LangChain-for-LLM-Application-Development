@@ -79,3 +79,47 @@ Steps to run the project:
   * Launch the `Jupyter notebook`.
   * Navigate to the project directory and open the desired notebook.
   * Run the cells in the notebook to execute the code.
+
+
+## Notebooks Overview
+
+📜 1. Model Prompt Parser.ipynb
+*	Parses and structures prompts for better model interactions.
+*	Uses LangChain’s PromptTemplate for prompt engineering.
+
+📜 2. Memory.ipynb
+*	Implements conversation memory using different memory types:
+*	ConversationBufferMemory
+*	ConversationBufferWindowMemory
+*	ConversationTokenBufferMemory
+*	ConversationSummaryMemory
+
+📜 3. Chains.ipynb
+*	Uses LLMChain to process inputs in a structured way.
+*	Implements SimpleSequentialChain and SequentialChain to automate workflows.
+*	Demonstrates a Router Chain for multi-purpose prompts.
+
+📜 4. QnA.ipynb
+*	Builds a retrieval-based Q&A system using LangChain.
+*	Loads documents into a vector store and queries them dynamically.
+*	Utilizes RetrievalQA to enhance question answering.
+
+📜 5. Evaluation.ipynb
+*	Evaluates model responses manually and using LangChain’s QAEvalChain.
+*	Generates example test cases and assesses model accuracy.
+
+📜 6. Agents.ipynb
+*	Implements LangChain Agents to dynamically select tools.
+*	Uses built-in tools (Wikipedia, LLM-Math).
+*	Creates a custom Python agent for executing code.
+
+## Contributions
+Contributions are welcome! For feature requests, bug reports, or questions, please raise an issue on the repository.
+
+# License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+# Acknowledgements
+*	[LangChain](https://github.com/langchain-ai/langchain) for providing the framework.
+*	[DeepLearning.AI](https://learn.deeplearning.ai/) for the educational material.
+*	[OpenAI](https://openai.com/) for powering the underlying language model.
