@@ -41,19 +41,23 @@ You need to have the following softwares installed on your machine:
 ```bash
 git clone https://github.com/Akashdip-N/LangChain-for-LLM-Application-Development.git
 ```
+2.  Navigate to the project directory:
+```bash
+cd LangChain-for-LLM-Application-Development
+```
 
-2. Create a virtual environment:
+3. Create a virtual environment:
 ```bash
 conda create --name myenv python=3.9.19
 conda activate myenv
 ```
   
-  3. Install the required packages:
+4. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Create a ```config.json``` file in the ```Config``` directory and add your OpenAI API key:
+5. Create a ```config.json``` file in the ```Config``` directory and add your OpenAI API key:
 ```json
 {
     "api_key": "YOUR_OPENAI_API_KEY"
